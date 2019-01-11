@@ -1,4 +1,4 @@
-# MyNetHttp
+# 简单网络请求封装
 OKHttp+Rerofit网络请求框架
 页面调用：
  LocalService.getApi().getHealthClassify()
