@@ -1,7 +1,7 @@
 # 简单网络请求封装
 OKHttp+Rerofit网络请求框架
 页面调用：
- LocalService.getApi().getHealthClassify()
+LocalService.getApi().getHealthClassify()
                 .subscribeOn(Schedulers.io())
                 .observeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -19,3 +19,5 @@ OKHttp+Rerofit网络请求框架
                         //e.getMessage() 可获取服务器返回错误信息
                     }
                 });
+
+
