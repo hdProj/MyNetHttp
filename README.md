@@ -7,16 +7,16 @@ LocalService.getApi().getHealthClassify()
                     @Override
                     protected void onDone(List<HealthClassifyBean> list) {
 
-                        //请求成功，做相应的页面操作
-
+                       
                     }
 
                     @Override
                     public void onError(Throwable e) {
                         super.onError(e);
-                        //e.getMessage() 可获取服务器返回错误信息
-                    }
+                                           
+					}
                 });
+
 
 
 
